@@ -100,7 +100,7 @@
                     android:layout_width="270dp"
                     android:layout_height="40dp"
                     android:textColor="#000000"
-                    android:background="#FFFFFF"
+                    android:background="#000000"
                     android:text="Forget password?"
                     >
                 </EditText>
