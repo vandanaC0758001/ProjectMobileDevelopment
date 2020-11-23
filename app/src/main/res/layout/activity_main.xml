@@ -23,7 +23,7 @@
                 android:textColor="#000000"
                 android:textStyle="bold"
                 android:textAllCaps="true"
-                android:text="           REVIEW"
+                android:text="        EYE REVIEW"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="20dp"
                 android:fontFamily="cursive"
