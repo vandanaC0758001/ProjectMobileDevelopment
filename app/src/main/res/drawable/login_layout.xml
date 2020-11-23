@@ -6,5 +6,5 @@
         android:width="3dp"
         android:color="#FFFFFF" /> <!--your desired colour for border-->
     <corners
-        android:radius="10dp"/> <!--shape rounded value-->
+        android:radius="15dp"/> <!--shape rounded value-->
 </shape>

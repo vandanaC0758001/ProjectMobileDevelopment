@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import io.realm.Realm;
 import io.realm.RealmQuery;
@@ -18,7 +19,7 @@ public class login extends AppCompatActivity {
     EditText user;
     EditText pass;
     Realm realmObj;
-    EditText signinText;
+    TextView signinText;
     Button signupBtn;
 
     @Override

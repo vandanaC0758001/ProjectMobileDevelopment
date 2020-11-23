@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+
 import io.realm.Realm;
 import io.realm.RealmQuery;
 import io.realm.RealmResults;
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText emailField;
     EditText passwordField;
-    EditText signupText;
+    TextView signupText;
     Button loginBtn;
     ImageView google;
     ImageView facebook;
