@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     >
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayoutID"
+        android:id="@+id/tabLayoutID1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#3f6d75">
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPagerID"
+        android:id="@+id/viewPagerID1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />

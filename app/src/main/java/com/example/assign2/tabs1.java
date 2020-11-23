@@ -14,15 +14,15 @@ public class tabs1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tabs);
+        setContentView(R.layout.activity_tabs1);
 
-        tabLayout=(TabLayout)findViewById(R.id.tabLayoutID);
-        viewPager=(ViewPager)findViewById(R.id.viewPagerID);
+        tabLayout=(TabLayout)findViewById(R.id.tabLayoutID1);
+        viewPager=(ViewPager)findViewById(R.id.viewPagerID1);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Food"));
         tabLayout.addTab(tabLayout.newTab().setText("Contact"));
 
-        final myTabsAdapter adapter = new myTabsAdapter(this,getSupportFragmentManager(), tabLayout.getTabCount());
+        final myTabsAdapter1 adapter = new myTabsAdapter1(this,getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));

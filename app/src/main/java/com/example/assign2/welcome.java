@@ -33,7 +33,7 @@ public class welcome extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    Intent intent = new Intent(view.getContext(),tabs1.class);
+                    Intent intent = new Intent(view.getContext(),tabs.class);
                     startActivity(intent);
                 }
                 if (position==1){
