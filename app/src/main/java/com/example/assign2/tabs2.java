@@ -22,7 +22,7 @@ public class tabs2 extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Food"));
         tabLayout.addTab(tabLayout.newTab().setText("Contact"));
 
-        final myTabsAdapter1 adapter = new myTabsAdapter1(this,getSupportFragmentManager(), tabLayout.getTabCount());
+        final myTabsAdapter2 adapter = new myTabsAdapter2(this,getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
