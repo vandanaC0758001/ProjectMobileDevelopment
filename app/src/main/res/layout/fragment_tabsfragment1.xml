@@ -130,7 +130,7 @@ Amenities include an on-site Japanese restaurant, a grill and a casual pub, plus
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="1. Policies \n ✓ Smoke-Free Property \n ✓ Credit Cards \n ✓ Cash"></TextView>
+            android:text="2. Policies \n ✓ Smoke-Free Property \n ✓ Credit Cards \n ✓ Cash"></TextView>
 
         <TextView
             android:layout_marginTop="10dp"
@@ -138,7 +138,7 @@ Amenities include an on-site Japanese restaurant, a grill and a casual pub, plus
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
-            android:text="1. Activities \n ✓ Tennis \n ✓ Scuba \n ✓ Game Room"></TextView>
+            android:text="3. Activities \n ✓ Tennis \n ✓ Scuba \n ✓ Game Room"></TextView>
 
 
     </LinearLayout>

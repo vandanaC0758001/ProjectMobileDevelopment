@@ -41,7 +41,7 @@ public class welcome extends AppCompatActivity {
                     startActivity(intent);
                 }
                 if (position==2){
-                    Intent intent = new Intent(view.getContext(),tabs1.class);
+                    Intent intent = new Intent(view.getContext(),tabs2.class);
                     startActivity(intent);
                 }
             }
