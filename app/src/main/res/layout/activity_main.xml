@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="@drawable/gradient_layout"
+    android:background="@drawable/hb2"
     >
     <ScrollView
         android:layout_width="match_parent"
@@ -54,7 +54,8 @@
                     android:background="#FFFFFF"
                     android:fontFamily="cursive"
                     android:textStyle="bold"
-                    android:hint="Enter your email"
+                    android:textSize="20dp"
+                    android:hint="Email"
                     >
                 </EditText>
 
@@ -84,47 +85,19 @@
                     android:textColor="#18181a"
                     android:background="#FFFFFF"
                     android:textStyle="bold"
+                    android:textSize="20dp"
                     android:fontFamily="cursive"
-                    android:hint="Enter password"
+                    android:hint="Password"
                     >
                 </EditText>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="350dp"
-                android:layout_height="60dp"
-                android:orientation="horizontal">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-                <TextView
-                    android:layout_width="160dp"
-                    android:layout_height="40dp"
-                    android:textColor="#000000"
-                    android:textStyle="bold"
-                    android:text="Remember me"
-                    android:fontFamily="cursive"
-                    android:textSize="20dp"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_width="270dp"
-                    android:layout_height="40dp"
-                    android:textColor="#000000"
-                    android:textStyle="bold"
-                    android:text="   Forget password?"
-                    android:fontFamily="cursive"
-                    android:textSize="20dp"
-                    >
-                </TextView>
 
-            </LinearLayout>
 
 
             <Button
                 android:id="@+id/loginBtn"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="25dp"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:background="@drawable/layout"

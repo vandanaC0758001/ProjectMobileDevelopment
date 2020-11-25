@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/gradient_layout"
+    android:background="@drawable/hb2"
     android:layout_height="match_parent">
 
     <ScrollView
@@ -26,11 +26,12 @@
                 ></TextView>
         <TextView
             android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
             android:layout_height="80dp"
-            android:textSize="40dp"
-            android:textColor="#5a5bcf"
+            android:textSize="50dp"
+            android:textColor="#3b7d86"
             android:textStyle="bold"
-            android:text="Register Now"
+            android:text="Join us...."
             android:layout_marginLeft="20dp"
             android:fontFamily="cursive"
             ></TextView>
@@ -39,9 +40,9 @@
 
             android:layout_width="300dp"
             android:layout_height="30dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
             android:textColor="#000000"
-            android:text="Username"
+            android:text="Email"
             android:fontFamily="cursive"
             android:textStyle="bold"
             android:layout_marginRight="20dp"
@@ -62,7 +63,7 @@
                 android:background="#FFFFFF"
                 android:fontFamily="cursive"
                 android:textStyle="bold"
-                android:hint="Enter user name"
+                android:hint="Email address"
                 >
             </EditText>
         </LinearLayout>
@@ -72,7 +73,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="30dp"
-                android:textSize="25dp"
+                android:textSize="30dp"
                 android:textColor="#000000"
                 android:textStyle="bold"
                 android:fontFamily="cursive"
@@ -96,7 +97,7 @@
                     android:background="#FFFFFF"
                     android:textStyle="bold"
                     android:fontFamily="cursive"
-                    android:hint="Enter password"
+                    android:hint="Password"
                     >
                 </EditText>
             </LinearLayout>
@@ -111,7 +112,7 @@
                 android:textSize="20dp"
                 android:fontFamily="cursive"
                 android:textStyle="bold"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textAllCaps="false"
                 android:text="REGISTER">
 
@@ -153,13 +154,8 @@
 
             </LinearLayout>
 
-
-
-
         </LinearLayout>
 
     </ScrollView>
-
-
 
 </LinearLayout>
