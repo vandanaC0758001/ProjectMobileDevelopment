@@ -23,7 +23,8 @@
                 android:textColor="#ffffff"
                 android:textAllCaps="true"
                 android:text="EYE REVIEW"
-                android:layout_margin="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
                 android:gravity="center"
                 android:shadowColor="#000000"
                 android:fontFamily="monospace"
@@ -164,7 +165,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+
                 <ImageView
 
                     android:layout_marginRight="50dp"
@@ -184,19 +187,10 @@
                     android:src="@drawable/fbnn"
                     />
 
-
             </LinearLayout>
-
 
         </LinearLayout>
 
-
     </ScrollView>
-
-
-
-
-
-
 
 </LinearLayout>
