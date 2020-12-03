@@ -32,7 +32,7 @@ public class login extends AppCompatActivity {
 
         user = findViewById(R.id.Regname);
         pass = findViewById(R.id.Regpass);
-        signupBtn = findViewById(R.id.signupBtn);
+        signupBtn = findViewById(R.id.loginBtn);
         signinText = findViewById(R.id.signinText);
 
 
@@ -78,24 +78,32 @@ public class login extends AppCompatActivity {
                         System.out.println("Password " + obj.getPassword());
                     }
 
-                    //
-                    //validate("DONE", "You have entered correct info...");
+
+                    validate("DONE", "You have entered correct info...");
 
                     System.out.println("User Entered valid string");
                 }
             }
         });
+        signinText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login.this, MainActivity.class));
+            }
+        });
     }
+
     public void validate(String title, String message){
 
         AlertDialog.Builder dialog = new AlertDialog.Builder(login.this);
         dialog.setTitle(title);
         dialog.setMessage(message);
 
+
         dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                //Action for "Delete".
+
             }
         });
         final AlertDialog alert = dialog.create();
