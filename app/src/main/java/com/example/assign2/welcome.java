@@ -50,23 +50,23 @@ public class welcome extends AppCompatActivity {
                     startActivity(intent);
                 }
                 if (position==3){
-                    Intent intent = new Intent(view.getContext(),tabs2.class);
+                    Intent intent = new Intent(view.getContext(),tabs3.class);
                     startActivity(intent);
                 }
                 if (position==4){
-                    Intent intent = new Intent(view.getContext(),tabs2.class);
+                    Intent intent = new Intent(view.getContext(),tabs4.class);
                     startActivity(intent);
                 }
                 if (position==5){
-                    Intent intent = new Intent(view.getContext(),tabs2.class);
+                    Intent intent = new Intent(view.getContext(),tabs5.class);
                     startActivity(intent);
                 }
                 if (position==6){
-                    Intent intent = new Intent(view.getContext(),tabs2.class);
+                    Intent intent = new Intent(view.getContext(),tabs6.class);
                     startActivity(intent);
                 }
                 if (position==7){
-                    Intent intent = new Intent(view.getContext(),tabs2.class);
+                    Intent intent = new Intent(view.getContext(),tabs7.class);
                     startActivity(intent);
                 }
             }

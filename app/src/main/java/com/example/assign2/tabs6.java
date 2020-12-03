@@ -7,14 +7,14 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class tabs1 extends AppCompatActivity {
+public class tabs6 extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tabs1);
+        setContentView(R.layout.activity_tabs6);
 
         tabLayout=(TabLayout)findViewById(R.id.tabLayoutID1);
         viewPager=(ViewPager)findViewById(R.id.viewPagerID1);
@@ -22,7 +22,7 @@ public class tabs1 extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Food"));
 
 
-        final myTabsAdapter1 adapter = new myTabsAdapter1(this,getSupportFragmentManager(), tabLayout.getTabCount());
+        final myTabsAdapter6 adapter = new myTabsAdapter6(this,getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));

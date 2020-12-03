@@ -28,9 +28,7 @@ public class myTabsAdapter2 extends FragmentPagerAdapter {
             case 1:
                 tabs2frag2 sportFragment = new tabs2frag2();
                 return sportFragment;
-            case 2:
-                tabs2frag3 movieFragment = new tabs2frag3();
-                return movieFragment;
+
             default:
                 return null;
         }

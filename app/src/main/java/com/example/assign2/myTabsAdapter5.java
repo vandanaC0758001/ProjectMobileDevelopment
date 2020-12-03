@@ -8,10 +8,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-public class myTabsAdapter1 extends FragmentPagerAdapter {
+public class myTabsAdapter5 extends FragmentPagerAdapter {
     private Context myContext;
     int totalTabs;
-    public myTabsAdapter1(Context context, FragmentManager fm, int totalTabs)
+    public myTabsAdapter5(Context context, FragmentManager fm, int totalTabs)
     {
         super(fm);
         myContext = context;
@@ -23,10 +23,10 @@ public class myTabsAdapter1 extends FragmentPagerAdapter {
     {
         switch (position) {
             case 0:
-                tabs1frag1 homeFragment = new tabs1frag1();
+                tabs5frag1 homeFragment = new tabs5frag1();
                 return homeFragment;
             case 1:
-                tabs1frag2 sportFragment = new tabs1frag2();
+                tabs5frag2 sportFragment = new tabs5frag2();
                 return sportFragment;
 
             default:

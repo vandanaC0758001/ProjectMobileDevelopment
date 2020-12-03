@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tabs2"></activity>
+        <activity android:name=".tabs7"></activity>
+        <activity android:name=".tabs6" />
+        <activity android:name=".tabs5" />
+        <activity android:name=".tabs4" />
+        <activity android:name=".tabs3" />
+        <activity android:name=".tabs2" />
         <activity android:name=".tabs1" />
         <activity android:name=".tabs" />
         <activity android:name=".welcome" />
@@ -21,8 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
