@@ -11,17 +11,20 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class welcome extends AppCompatActivity {
     ListView listview;
     SearchView searchView;
+    private List<details> searchList= new ArrayList<details>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
-
+        listview= findViewById(R.id.listViewID);
         searchView = findViewById(R.id.searchid);
+
         listview= findViewById(R.id.listViewID);
         ArrayList<details> movieList = new ArrayList<>();
         movieList.add(new details(R.drawable.delta1,"Delta Hotel","Hotel"));
@@ -34,6 +37,26 @@ public class welcome extends AppCompatActivity {
         movieList.add(new details(R.drawable.inter,"Intercontinental","Hotel"));
         movieAdapter movieadapter= new movieAdapter(this,R.layout.list,movieList);
         listview.setAdapter(movieadapter);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener(){
+            public boolean onQueryTextSubmit(String value){
+                System.out.println("search text"+value);
+                return false;
+            }
+            @Override
+            public boolean onQueryTextChange(String value) {
+                System.out.println("search text" + value);
+                ArrayList<details> templist= new ArrayList<>();
+                for(details aobj:searchList){
+                    if(aobj.title.contains(value)){
+                        templist.add(aobj);
+                    }
+                }
+                movieAdapter adapter;
+                adapter = new movieAdapter(getApplicationContext(),R.layout.list,templist);
+                listview.setAdapter(adapter);
+                return false;
+            }
+        });
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

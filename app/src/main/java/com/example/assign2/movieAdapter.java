@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class movieAdapter extends ArrayAdapter<details> {
     private Context mycontext;
@@ -22,6 +23,9 @@ public class movieAdapter extends ArrayAdapter<details> {
         this.mycontext= context;
         this.myres= resource;
     }
+
+
+
 
     @NonNull
     @Override
