@@ -8,27 +8,27 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.SearchView;
 
 import java.util.ArrayList;
 
 public class welcome extends AppCompatActivity {
     ListView listview;
-    Button btn1;
-    Button btn2;
-
+    SearchView searchView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome);
 
+        searchView = findViewById(R.id.searchid);
         listview= findViewById(R.id.listViewID);
         ArrayList<details> movieList = new ArrayList<>();
         movieList.add(new details(R.drawable.delta1,"Delta Hotel","Hotel"));
-        movieList.add(new details(R.drawable.sheraton1,"Sheritan Hotel","Hotel"));
+        movieList.add(new details(R.drawable.sheraton1,"Sheraton Hotel","Hotel"));
         movieList.add(new details(R.drawable.fair,"Fairmont Hotel","Hotel"));
         movieList.add(new details(R.drawable.knights1,"Knights Inn","Hotel/Spa/Indoor pool"));
-        movieList.add(new details(R.drawable.hilton1,"Hilton Hotel","Hotel"));
+        movieList.add(new details(R.drawable.hilton1,"Hilton Hotel","Hotel/Spa"));
         movieList.add(new details(R.drawable.ann,"The Anndore House","Hotel"));
         movieList.add(new details(R.drawable.court,"Courtyard Hotel","Hotel"));
         movieList.add(new details(R.drawable.inter,"Intercontinental","Hotel"));
