@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="320dp"
-                android:src="@drawable/fairmont"></ImageView>
+                android:src="@drawable/hilton"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#000000"
-                android:text="A million stories - One Fairmont Royal York. Toronto's landmark hotel is the gateway to your essential Toronto experience. Located in the downtown core, Fairmont Royal York is minutes from the city's biggest events and attractions including: The CN Tower, Ripley's Aquarium of Canada, Scotiabank Arena, Rogers Centre, the Eaton Centre, and the Sony Centre for the Performing Arts. "></TextView>
+                android:text="As the most recognized name in the industry, travelers all over the world have been saying Take me to the Hilton for almost a century. And because of our innovative approach to products, amenities and service, Hilton continues to be synonymous with hotel across the globe. Hilton Hotels and Resorts remains the stylish, forward thinking global leader of hospitality – and we help make traveling easier with our smart design, innovative restaurant concepts, authentic hospitality and commitment to the global community."></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"

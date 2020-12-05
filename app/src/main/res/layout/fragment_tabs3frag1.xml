@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="320dp"
-                android:src="@drawable/fairmont"></ImageView>
+                android:src="@drawable/knight"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,7 +69,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#000000"
-                android:text="A million stories - One Fairmont Royal York. Toronto's landmark hotel is the gateway to your essential Toronto experience. Located in the downtown core, Fairmont Royal York is minutes from the city's biggest events and attractions including: The CN Tower, Ripley's Aquarium of Canada, Scotiabank Arena, Rogers Centre, the Eaton Centre, and the Sony Centre for the Performing Arts. "></TextView>
+                android:text="Welcome to Knights Inn Toronto Scarborough, your Toronto “home away from home.” Knights Inn Toronto Scarborough aims to make your visit as relaxing and enjoyable as possible, which is why so many guests continue to come back year after year.
+
+Guest rooms offer a flat screen TV and air conditioning, and Howard Johnson Scarborough Hotel makes getting online easy as free wifi is available."></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"

@@ -19,12 +19,12 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="320dp"
-                android:src="@drawable/fairmont"></ImageView>
+                android:src="@drawable/intercon"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="The Intercontinnental"
+                android:text="The Intercontinental"
                 android:textColor="#000000"/>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#000000"
-                android:text="A million stories - One Fairmont Royal York. Toronto's landmark hotel is the gateway to your essential Toronto experience. Located in the downtown core, Fairmont Royal York is minutes from the city's biggest events and attractions including: The CN Tower, Ripley's Aquarium of Canada, Scotiabank Arena, Rogers Centre, the Eaton Centre, and the Sony Centre for the Performing Arts. "></TextView>
+                android:text="Experience the InterContinental Life and city culture from its most fashionable neighbourhood when you stay one of the most desired hotels in Downtown Toronto, Canada. The InterContinental Toronto Yorkville redefines luxury with sleek, yet invitingly designed interiors. Discover our personal touches like our Signatures Restaurant, Stylish Proof Bar and Proof Patio and Roof Top Pool. Located in the university and arts district of Yorkville, our vibrant hotel puts you within steps of trendy restaurants, high-end boutiques, and art galleries, as well as the University of Toronto and iconic museums. Here, you'll be treated to unparalleled service with a staff speaking three dozen languages, and a knowledgeable concierge who can help with everything, even a helicopter tour of the city."></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"
