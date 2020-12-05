@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="320dp"
-                android:src="@drawable/fairmont"></ImageView>
+                android:src="@drawable/courtyard"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#000000"
-                android:text="A million stories - One Fairmont Royal York. Toronto's landmark hotel is the gateway to your essential Toronto experience. Located in the downtown core, Fairmont Royal York is minutes from the city's biggest events and attractions including: The CN Tower, Ripley's Aquarium of Canada, Scotiabank Arena, Rogers Centre, the Eaton Centre, and the Sony Centre for the Performing Arts. "></TextView>
+                android:text="Treat yourself to a relaxing stay in Ontario's capital at Courtyard Toronto Downtown, one of the largest full-service Courtyard hotels. Our location near Yonge and College Streets lets guests easily explore popular downtown destinations, including Yonge-Dundas Square, the Village, the CN Tower, the Toronto Eaton Center and Massey Hall. After a day spent discovering Toronto's landmarks, take a dip in our indoor pool, work out in our fitness center or enjoy American cuisine in our on-site restaurant. If you're in Ontario for business, make sure to take advantage of our modern event venues with 13,300 square feet of space and state-of-the-art technology. In the evening, unwind in stylish hotel accommodations with cozy reading chairs, mini-refrigerators, large windows, ample desks and free Wi-Fi. For extended stays or family travel, our spacious suites boast a separate living area for entertaining. Whether you're here for work or play, Courtyard Toronto Downtown is ready to make your visit to Toronto special."></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"

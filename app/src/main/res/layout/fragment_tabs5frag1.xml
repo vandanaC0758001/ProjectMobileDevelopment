@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="320dp"
-                android:src="@drawable/fairmont"></ImageView>
+                android:src="@drawable/annhotel"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#000000"
-                android:text="A million stories - One Fairmont Royal York. Toronto's landmark hotel is the gateway to your essential Toronto experience. Located in the downtown core, Fairmont Royal York is minutes from the city's biggest events and attractions including: The CN Tower, Ripley's Aquarium of Canada, Scotiabank Arena, Rogers Centre, the Eaton Centre, and the Sony Centre for the Performing Arts. "></TextView>
+                android:text="Toronto’s Instagram-friendly, 113-room retreat is a stylish home-away-from-home for hip downtown-focused visitors and a local gathering spot for the nearby condo crowd. It's cosmopolitan chic, from the sumptuous, sexy main floor to the quirky, loft-style suites. Conveniently located on a quiet street, just one block away from the crossroads of the city’s subway system at Yonge and Bloor. The Anndore House is a five-minute walk from Bloor Street’s luxury shopping, the upscale Yorkville area and the LGBTQ+ neighbourhood. The Royal Ontario Museum is a 10-minute walk east. Downtown shopping is 10 minutes away by subway, and the Financial District is a 15-minute taxi ride."></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"
