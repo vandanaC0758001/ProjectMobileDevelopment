@@ -26,7 +26,7 @@ public class welcome extends AppCompatActivity {
         searchView = findViewById(R.id.searchid);
 
         listview= findViewById(R.id.listViewID);
-        ArrayList<details> movieList = new ArrayList<>();
+        final ArrayList<details> movieList = new ArrayList<>();
         movieList.add(new details(R.drawable.delta1,"Delta Hotel","Hotel"));
         movieList.add(new details(R.drawable.sheraton1,"Sheraton Hotel","Hotel"));
         movieList.add(new details(R.drawable.fair,"Fairmont Hotel","Hotel"));
@@ -45,8 +45,8 @@ public class welcome extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String value) {
                 System.out.println("search text" + value);
-                ArrayList<details> templist= new ArrayList<>();
-                for(details aobj:searchList){
+                ArrayList<details> templist = new ArrayList<>();
+                for(details aobj:movieList){
                     if(aobj.title.contains(value)){
                         templist.add(aobj);
                     }
