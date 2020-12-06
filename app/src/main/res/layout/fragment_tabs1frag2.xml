@@ -3,12 +3,358 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     tools:context=".tabs1frag2">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="REVIEWS"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Very responsive and polite staff. Got a big room with a comfortable king-size bed. Location is perfect. Highly recommends his hotel if you are looking for a place to stay for your business or holiday trip."
+                android:textColor="#000000"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐ ⭐ ⭐ ⭐ -  Richard F"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I normally book with whatever is the least expensive 4 star hotel in Toronto through Priceline, but I’ve been finding myself coming back to the Sheraton because the staff goes above and beyond. Marc at the front desk is the reason I’ll continue to book at this hotel even if it’s more than the other 4 star hotels. He is so kind, attentive and accommodating. I love having a room with a bath instead of a shower and the front desk had no problem accommodating that! I never once got the “Priceline treatment” and if you’ve stayed in more upscale hotels and booked through Priceline then you know what I’m talking about. Thank you so much Sheraton- I’ll be back in a few weeks.   "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐ - Scott Evans"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I always travel because of the nature of my business , but I never experienced such a great and professional customer service like the one I had in Sheraton specifically from Mr “MAX CHOY “ to know person like him , amazing ability to engage with the guest to make them feel like home , I had problem that I had to leave early from Toronto so I already order stuff online but it was out of stock I try and try unless I get disappointed to get it and I left to my room to get ready for my flight Mr MAX went beyond expectations and was looking up for me the item I want because not my friend only he is employed doing his job but also because he cares about the details when I check out I found the items waiting for me , you were the reason the I had that smile in my face wil be glad to come again , you made my day 🙏"
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐⭐⭐ - Simon"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I'm an airline flight attendant. We stay at his hotel all the time. At front desk, you'll receive a very warming welcome. Rooms are beautiful decorated , spacious and clean. Beds and bending are extremely comfortable. Location is the best, at the centre of the downtown which closes to shopping malls, restaurants, groceries and China Town.  "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="⭐⭐⭐⭐⭐ - Clark"
+                android:textColor="#000000"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

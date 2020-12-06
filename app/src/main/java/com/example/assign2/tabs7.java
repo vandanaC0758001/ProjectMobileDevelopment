@@ -19,7 +19,7 @@ public class tabs7 extends AppCompatActivity {
         tabLayout=(TabLayout)findViewById(R.id.tabLayoutID1);
         viewPager=(ViewPager)findViewById(R.id.viewPagerID1);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
-        tabLayout.addTab(tabLayout.newTab().setText("Food"));
+        tabLayout.addTab(tabLayout.newTab().setText("Reviews"));
 
 
         final myTabsAdapter7 adapter = new myTabsAdapter7(this,getSupportFragmentManager(), tabLayout.getTabCount());

@@ -19,7 +19,7 @@ public class tabs extends AppCompatActivity {
         tabLayout=(TabLayout)findViewById(R.id.tabLayoutID);
         viewPager=(ViewPager)findViewById(R.id.viewPagerID);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
-        tabLayout.addTab(tabLayout.newTab().setText("Food"));
+        tabLayout.addTab(tabLayout.newTab().setText("Reviews"));
 
 
         final myTabsAdapter adapter = new myTabsAdapter(this,getSupportFragmentManager(), tabLayout.getTabCount());

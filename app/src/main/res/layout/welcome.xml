@@ -8,7 +8,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg2">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/userbtn"
+        android:textAlignment="center"
+        android:text="User Info"></TextView>
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/valueID"
@@ -18,6 +24,7 @@
         android:text="HOTELS"
         android:textColor="#000000"
         android:layout_height="50dp"/>
+
     <SearchView
     android:layout_width="match_parent"
     android:layout_height="50dp"

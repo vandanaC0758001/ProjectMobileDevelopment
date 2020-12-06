@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView google;
     ImageView facebook;
     Realm realmObj;
+    String username;
+    String password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String username = emailField.getText().toString();
-                String password = passwordField.getText().toString();
+                username = emailField.getText().toString();
+                password = passwordField.getText().toString();
 
 
                 if (username.isEmpty() || username.length() < 1) {
@@ -108,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
-                //Action for "Delete".
+                startActivity(new Intent(MainActivity.this, MainActivity.class));
             }
         });
         final AlertDialog alert = dialog.create();

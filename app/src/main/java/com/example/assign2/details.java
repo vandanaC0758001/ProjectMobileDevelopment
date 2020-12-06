@@ -1,6 +1,8 @@
 package com.example.assign2;
 
-public class details {
+import io.realm.RealmModel;
+
+public class details implements RealmModel {
     int Image;
     String title;
     String genre;
@@ -9,6 +11,10 @@ public class details {
         Image = image;
         this.title = title;
         this.genre = genre;
+    }
+
+    public details() {
+
     }
 
     public int getImage() {

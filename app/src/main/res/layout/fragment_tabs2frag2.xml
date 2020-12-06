@@ -3,12 +3,358 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     tools:context=".tabs2frag2">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="REVIEWS"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I am a loyal Fairmont guest and never once have I ever been disappointed with the establishments (always breathtaking), the very individuals that work for the hotel as they always go out of there way to ensure your every need is taken care of and with a smile, the rooms are hard to leave as there is so much care to detail and comfort. Don’t get me started on the linens as they make your sleeps like you are sleeping on a cloud. Thank you to so many of you from Jesse and Fred at the front doors, Ashley in Fairmont Gold and Amelia in housekeeping to name a few - thank you."
+                android:textColor="#000000"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐ ⭐ ⭐ ⭐ -  John K"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I had a really wonderful stay at the Royal York. I highly recommend it! I’ve stayed at a few hotels since travel shutdowns began, and I just found RY to of course have good health practices, but was generally just friendlier and I felt like the staff truly wanted me to enjoy my stay. From my check in attendant, to my room cleaner, everyone was so welcoming, accommodating and kind. They now offer text updates with concierge, which was helpful to ensure my stay was perfect. The room was spacious and had a walk in closet which was great! Even though the lobby is empty, in terms of a stay, it was excellent. I really recommend it to those of you looking to get away or take a staycation :)   "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐ - Mike Penn"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Beautiful hotel, incredible service. The front dealing texting service was amazing - so incredibly helpful. Check in and out was easy. We felt safe with all of the covid procedures in place. Gorgeous view of the CN Tower and we got a really great rate!!! Thank you for taking care of us for a little weekend getaway!!!        "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐⭐⭐ - Arthur"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My favourite Toronto hotel - friendly staff, exceptional service and impeccably clean rooms. Employees of Royal York are genuinely friendly and look for every opportunity to impress and surpass expectations. The bed and linens are heavenly and are one of the reasons that keep luring me back to the Royal York. My sincere congratulations to the general manager, and a special thank you to Paul S., Joy D. and Kendrick B. for their wonderful service.  "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="⭐⭐⭐⭐⭐ - Sean"
+                android:textColor="#000000"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

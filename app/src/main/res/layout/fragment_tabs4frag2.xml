@@ -3,12 +3,358 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     tools:context=".tabs4frag2">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="REVIEWS"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Stayed for a friends birthday in the downtown Toronto area. Location is perfect, within walking distance to many Toronto attractions. The executive lounge is beautiful and has amazing views of the city. The rooms are clean and spacious and I cannot wait to stay again!"
+                android:textColor="#000000"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐ ⭐ ⭐ ⭐ -  Tilly Jackson"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="This was the perfect hotel for our family when we went to a raptors game and TO sightseeing weekend. Walking distance to everything including the CN Tower, restaurants and Raptors den! We lived that we could walk from inside the restaurant to Ruth’s Chris Restaurant and the bar is super lounge and modern, perfect for a pre or after dinner drink. The pool is not great but we went there once as we were busy exploring the city with the kids. Overall a great stay!   "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐ - Adam"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Great hotel with great pool in the best location. Good for families, would highly suggest this hotel for families with babies. Hotel restaurant was closed but plenty of great nearby options and try the scenic elevators        "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐⭐⭐ - Josiah"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I stayed in this hotel in August and I was blown away. The renovated room I was in was wonderful, extremely clean and it was nice to have the gym and pool open (one of the main reasons I picked this hotel) although covid is happening I didn’t feel like they were cutting corners with service which was nice. Location was the best close to everything! View was incredible  "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="⭐⭐⭐⭐⭐ - Hosea"
+                android:textColor="#000000"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

@@ -3,12 +3,362 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     tools:context=".tabs6frag2">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="REVIEWS"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My husband has stage 4 cancer and we've had multiple appointments at a nearby cancer centre. I requested a quiet room away from the elevators so my husband can rest. The staff was very accomodating and gave us a quiet room. I've had to extend stays, cancel nights and needed late checkouts several times which was never a problem. We've spent more time at this property than our own home over the past month and will definately stay again. We are very grateful for the excellent service during a difficult time."
+                android:textColor="#000000"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐ ⭐ ⭐ ⭐ -  Elijah"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I stayed at Delta Toronto for close to a week and had a decent stay. The rooms are rather small and a bit claustrophobic. The service was okay. The front desk staff was welcoming and friendly but the person that delivered my room service was rather rude. The most appealing things about Delta is the location. It's close to Union Station, the CN tower, Scotiabank Arena, etc. Overall, It's kind of just your generic marriott property. If you're not expecting anything amazing, you will likely have a nice stay at Delta.
+                                 "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐ - Scott Evans"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Since I had a early appointment in Toronto on Sept. 11/20 I was decided to spend a night in Toronto. Staying at the Courtyard by Marriott was the best decision I made.
+            My wife and I were warmly greeted by Lewis and Rina. Because my stay was longer than anticipated my wife paid less for the next 2 night than what I did for the first night.
+            To further complicate matters with a 12 noon check out pending and my wife having no idea if I would be available Lewis shone through with an additional 2 hours. This is customer service above and beyond the call. Based on the service my wife and I received I have no trouble recommending this hotel"
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="⭐⭐⭐⭐⭐ - Micah"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="This was our first stay at the Delta Toronto and it will not be our last! Upon arrival, the front desk staff member was most welcoming and gave us updates on the hotel practices during Covid. Our first impression was that the hotel was spotless! Our king corner room was spacious, with great views, a fabulous downtown location and the most comfortable bed. Having stayed in two of the other luxury properties downtown in the 'Marriott' chain, the Delta Toronto offered the same high level of comfort and customer service! We look forward to returning and being able to enjoy the full facilities including the restaurant and lobby bar area.
+                                "
+                android:textColor="#000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="⭐⭐⭐⭐⭐ - Clark"
+                android:textColor="#000000"
+                android:layout_marginLeft="250dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#000000"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="cursive"
+
+                    android:text="✧"
+                    android:textColor="#000000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="#000000"></View>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
