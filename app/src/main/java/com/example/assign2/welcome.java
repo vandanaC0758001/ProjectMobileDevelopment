@@ -9,11 +9,13 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class welcome extends AppCompatActivity {
+    TextView userbtn;
     ListView listview;
     SearchView searchView;
     private List<details> searchList= new ArrayList<details>();
@@ -24,6 +26,15 @@ public class welcome extends AppCompatActivity {
         setContentView(R.layout.welcome);
         listview= findViewById(R.id.listViewID);
         searchView = findViewById(R.id.searchid);
+        userbtn = findViewById(R.id.userbtn);
+
+        userbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(welcome.this, update.class));
+            }
+        });
+
 
         listview= findViewById(R.id.listViewID);
         final ArrayList<details> movieList = new ArrayList<>();
