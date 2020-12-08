@@ -18,6 +18,7 @@ public class welcome extends AppCompatActivity {
     TextView userbtn;
     ListView listview;
     SearchView searchView;
+    TextView logoutbtn;
     private List<details> searchList= new ArrayList<details>();
 
     @Override
@@ -27,11 +28,18 @@ public class welcome extends AppCompatActivity {
         listview= findViewById(R.id.listViewID);
         searchView = findViewById(R.id.searchid);
         userbtn = findViewById(R.id.userbtn);
+        logoutbtn =findViewById(R.id.logoutbtn);
 
         userbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(welcome.this, userInfo.class));
+            }
+        });
+        logoutbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(welcome.this, MainActivity.class));
             }
         });
 
