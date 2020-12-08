@@ -54,7 +54,8 @@ public class update extends AppCompatActivity {
                 } else {
 
                     realmObj.beginTransaction();
-                    UserModel aUser = realmObj.where(UserModel.class).equalTo(fieldname:"emailField", deleteuser.emailField);
+                    UserModel aUser = realmObj.where(UserModel.class).equalTo("user", username).findFirst();
+                    aUser.deleteFromRealm();
                     realmObj.commitTransaction();
                     startActivity(new Intent(update.this, MainActivity.class));
                 }
