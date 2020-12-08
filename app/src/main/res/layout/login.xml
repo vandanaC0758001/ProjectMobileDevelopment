@@ -118,6 +118,7 @@
                     android:textStyle="bold"
                     android:fontFamily="cursive"
                     android:hint="Password"
+                    android:inputType="textPassword"
                     >
                 </EditText>
             </LinearLayout>

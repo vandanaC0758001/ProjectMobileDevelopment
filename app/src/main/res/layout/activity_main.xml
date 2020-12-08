@@ -80,6 +80,7 @@
                     android:background="#FFFFFF"
                     android:textSize="15dp"
                     android:hint="Password"
+                    android:inputType="textPassword"
                     />
 
             </LinearLayout>
