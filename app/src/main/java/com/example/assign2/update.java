@@ -79,10 +79,4 @@ public class update extends AppCompatActivity {
         final AlertDialog alert = dialog.create();
         alert.show();
     }}
-
-
-
-
-
-
-
+    
