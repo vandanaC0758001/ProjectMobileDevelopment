@@ -22,7 +22,7 @@
                 android:textSize="45dp"
                 android:textColor="#ffffff"
                 android:textAllCaps="true"
-                android:text="EYE REVIEW"
+                android:text="REVIEW HUB"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="50dp"
                 android:gravity="center"
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
                 android:textColor="#ffffff"
-                android:text="Email"
+                android:text="USERNAME"
                 android:layout_marginBottom="10dp"
                 />
 
@@ -52,7 +52,7 @@
                     android:textColor="#18181a"
                     android:background="#FFFFFF"
                     android:textSize="15dp"
-                    android:hint="Email"
+                    android:hint="Username"
                     />
 
             </LinearLayout>
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
                 android:textColor="#ffffff"
-                android:text="Password"
+                android:text="PASSWORD"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 />

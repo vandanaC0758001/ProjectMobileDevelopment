@@ -31,7 +31,7 @@ public class welcome extends AppCompatActivity {
         userbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(welcome.this, update.class));
+                startActivity(new Intent(welcome.this, userInfo.class));
             }
         });
 
