@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="The Intercontinental"
+                android:text="The Intercontinental (Starting at 80$/day)"
                 android:textColor="#000000"/>
             <LinearLayout
                 android:layout_width="wrap_content"
